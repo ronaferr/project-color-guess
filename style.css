@@ -1,3 +1,9 @@
+#contanier {
+    border: 3px solid black;
+    display: inline-block;
+    text-align: center;
+}
+
 body {
     margin-top: 5%;
 }
@@ -10,11 +16,16 @@ section p {
     text-align: center;
 }
 
+#answer {
+    text-align: center;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+}
+
 #paletaCores {
     display: flex;
     justify-content: center;
-    
-    
 }
 
 .ball {
@@ -23,4 +34,8 @@ section p {
     border: 1px solid black;
     border-radius: 100%;
     margin: 4px;
+}
+
+#reset-game {
+    padding: 5px;
 }

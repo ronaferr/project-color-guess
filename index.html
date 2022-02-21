@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,26 +8,31 @@
     <title>Jogo da Cor</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <h1 id="title">
-            Qual é a cor?
-        </h1>
-    </header>
-    <section>
-        <p id="rgb-color">(168, 34, 1)</p>
+    <div id="contanier">
+        <header>
+            <h1 id="title">
+                Qual é a cor?
+            </h1>
+        </header>
+        <section>
+            <p id="rgb-color">(168, 34, 1)</p>
+        </section>
+        <section id="paletaCores">
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+        </section>
         <p id="answer">
             Escolha uma cor
         </p>
-    </section>
-    <section id="paletaCores">
-        <div class="ball"></div>
-        <div class="ball"></div>
-        <div class="ball"></div>
-        <div class="ball"></div>
-        <div class="ball"></div>
-        <div class="ball"></div>
-    </section>
+        <button id="reset-game">Reset</button>
+    </div>
     <script src="script.js"></script>
 </body>
+
 </html>
