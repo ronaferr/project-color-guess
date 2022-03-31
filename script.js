@@ -1,6 +1,6 @@
 window.onload = function jogoDaCor() {
 
-    //Mudar cores dos circulos ao recarregar
+    //criação de variaveis para serem usadas no codigo
     let cores = document.getElementsByClassName('ball');
     let textoResposta = document.querySelector('#answer');
     let corPraAdvinhar = document.querySelector('#rgb-color');
