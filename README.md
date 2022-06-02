@@ -1,7 +1,12 @@
-## Advinhe a cor
+# Projeto Advinhe a cor
 
-- Desenvolva uma aplicação de um jogo de adivinhação de cores.
+- Projeto desenvolvido na Trybe
 
-- Nesta aplicação deverá ser possível jogar um jogo de adivinhação de cores e sua pontuação deverá atualizar de acordo com os acertos.
+#  Contexto
+Este projeto trata-se de um jogo de adivinhação de cores e a pontuação deverá atualizar de acordo com os acertos
 
----
+##  Tecnologias usadas
+
+> Desenvolvido usando: CSS3, HTML5, ES6
+
+[Página da aplicação]()
